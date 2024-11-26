@@ -7,12 +7,12 @@
 }
 
 header{
-    background-color: #660202;
+    background-color: #2f0064;
     color: #fff;
     height: 40px;
 }
 nav{
-    background-color: #660202;
+    background-color: #44117e;
     gap: 20px;
     padding: 0 20px;
     height: 40px;
@@ -22,7 +22,7 @@ nav{
 
 
 main{
-    height: 1500px;
+    height: 1700px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -42,9 +42,9 @@ main{
 }
 
 .txt{
-    width: 200px;
+    width: 150px;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -66,17 +66,28 @@ main{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    
+    padding-bottom: 30px;
 }
 
-
-
-.txt{
-    width: 200px;
+.tit{
+    padding-top: 20px;
+    gap: 20px;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.divs{
+    background-color: #fff;
+    width: 100vw;
+    height: 1px;
+}
+
 
 footer{
     background-color: black;
