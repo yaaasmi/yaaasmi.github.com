@@ -6,11 +6,41 @@
     color: #fff ;
 }
 
+@font-face {
+    font-family: 'baby';
+    src: url(Baby\ Love.otf);
+}
+@font-face {
+    font-family: 'cute';
+    src: url(Cute\ Love.ttf);
+}
+
+@font-face {
+    font-family: 'lovely';
+    src: url(Lovely\ font\ demo.ttf);
+}
+
+@font-face {
+    font-family: 'caviar';
+    src: url(CaviarDreams.ttf);
+}
+
 header{
+    font-size: 30px;
+    font-family: 'lovely';
     background-color: #2f0064;
     color: #fff;
     height: 40px;
 }
+
+h1{
+    font-family: 'cute';
+    font-size: 50px;
+    color: #fff;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 nav{
     background-color: #44117e;
     gap: 20px;
@@ -42,6 +72,7 @@ main{
 }
 
 .txt{
+    font-family: 'caviar';
     width: 150px;
     color: #fff;
     font-size: 15px;
