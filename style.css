@@ -30,7 +30,10 @@ header{
     font-family: 'lovely';
     background-color: #2f0064;
     color: #fff;
-    height: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -48,9 +51,14 @@ nav{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'caviar';
 }
 
+img{
+    width: 170px;
+    height: 300px;
+}
 
 main{
     height: 1700px;
@@ -124,5 +132,6 @@ main{
 footer{
     background-color: black;
     height: 20px;
+    font-family: 'caviar';
 }
 
