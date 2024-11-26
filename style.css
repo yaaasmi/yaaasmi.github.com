@@ -19,6 +19,17 @@ nav{
     display: flex;
     align-items: center;
 }
+
+
+main{
+    height: 1500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nosdois{
     background-color: black;
     height: 400px;
@@ -26,16 +37,46 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 30px;
+    
 }
 
-.txt1{
+.txt{
     width: 200px;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
 
+.sobremim{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.sonhos{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+
+.txt{
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 footer{
     background-color: black;
