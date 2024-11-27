@@ -61,7 +61,7 @@ img{
 }
 
 main{
-    height: 1700px;
+    height: 1800px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -133,5 +133,6 @@ footer{
     background-color: black;
     height: 20px;
     font-family: 'caviar';
+    font-size: 10px;
 }
 
